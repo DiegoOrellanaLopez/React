@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TodoList({todos}) {
+export function TodoList({todos}) {
   return (
     <ul>
       {todos.map((todo) =>(
